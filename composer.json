@@ -1,0 +1,15 @@
+{
+    "name": "maxime/recette_lyon_mvc_a2",
+    "autoload": {
+        "psr-4": {
+            "Plat\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Max-691",
+            "email": "mcluzel@edenschool.fr"
+        }
+    ],
+    "require": {}
+}

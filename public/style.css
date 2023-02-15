@@ -1,0 +1,175 @@
+.error {
+  color: red;
+  font-size: 1rem;
+}
+
+.flex, .formRegister button[type=submit],
+.formLogin button[type=submit] {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(229, 226, 226);
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Poppins", sans-serif;
+}
+body main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+body header {
+  display: flex;
+  justify-content: center;
+}
+body header nav {
+  width: 100%;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+body header nav ul li a i, body header nav ul li p i {
+  margin-bottom: 1rem;
+  text-align: center;
+  display: block !important;
+}
+body header nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3rem;
+}
+body header nav div a {
+  text-decoration: none;
+  color: black;
+}
+body header nav div a:hover {
+  scale: 1.5;
+  transition: 0.4s;
+}
+body header nav div a i.fa-power-off:hover {
+  color: red;
+}
+body header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+/*FORMS*/
+.formRegister,
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formRegister input,
+.formLogin input {
+  width: 14rem;
+  height: 2rem;
+}
+.formRegister .blockInput:nth-of-type(1) i,
+.formLogin .blockInput:nth-of-type(1) i {
+  margin-left: 4px;
+}
+.formRegister button[type=submit],
+.formLogin button[type=submit] {
+  width: 6rem;
+  height: 2rem;
+  background-color: rgb(227, 161, 38);
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu form {
+  display: flex;
+  flex-direction: column;
+}
+.menu form input[type=submit] {
+  width: 7rem;
+}
+
+.align {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.align a {
+  text-decoration: none;
+  background: orange;
+  padding: 1rem;
+  border-radius: 25px;
+  font-size: 1.2rem;
+}
+
+.showListPlat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.showListPlat article {
+  background-color: rgb(189, 183, 183);
+  border-radius: 2rem;
+  padding: 2rem;
+  font-size: 1rem;
+  margin: 2rem;
+}
+.showListPlat input[type=number] {
+  text-align: right;
+  width: 2rem;
+  border: none;
+  padding: 3px;
+}
+
+table {
+  display: grid;
+  text-align: center;
+}
+table tr {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+table th {
+  border: 1px solid orange;
+  border-width: 1px 1px 0 1px;
+  padding: 10px;
+}
+table tbody td {
+  margin-top: 1rem;
+  padding: 5px;
+  border: solid 1px black;
+  border-width: 1px 0px 1px 0px;
+}
+table button {
+  width: 100%;
+}
+table i {
+  border: none;
+  font-size: 1.2rem;
+  background: none;
+}
+table i.fa-trash-can {
+  color: red;
+}
+table i.fa-arrow-up-1-9 {
+  color: orange;
+}
+table input[type=number] {
+  padding: 3px;
+  text-align: center;
+  border: none;
+  transition: 0.4s;
+}
+
+p.fix {
+  margin-block: 0;
+}/*# sourceMappingURL=style.css.map */
